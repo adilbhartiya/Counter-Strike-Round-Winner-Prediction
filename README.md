@@ -1,10 +1,16 @@
 # Counter-Strike Round Winner Prediction
 
-This project focuses on building and comparing multiple machine learning algorithms to predict the winners of rounds in Counter-Strike: Global Offensive (CS:GO). 
+## Description
 
-## Dataset Description and Objective
+This project focuses on building and comparing multiple machine learning algorithms to predict the winners of rounds in Counter-Strike: Global Offensive (CS:GO).
 
-The dataset consists of in-game attributes such as weapons, economy, maps, teamwork, and competitive play. The objective is to classify the winners of each round based on these attributes.
+## Objective
+
+The objective is to classify the winners of each round based on in-game attributes such as weapons, economy, maps, teamwork, and competitive play.
+
+## Dataset Description
+
+The dataset consists of in-game attributes such as weapons, economy, maps, teamwork, and competitive play.
 
 ## Steps Involved
 
@@ -27,10 +33,6 @@ The dataset consists of in-game attributes such as weapons, economy, maps, teamw
 
 - [cs-go.csv](https://drive.google.com/file/d/1hv3ui6xtPM_hDyVwwm1OaOH-cq9bLyJ3/view?usp=drive_link): Dataset containing in-game attributes.
 - [random_forest_model.pkl](https://drive.google.com/file/d/1HEy7gEwStU3p1X3c1fIs78g-7jFNgMjD/view?usp=drive_link): Saved Random Forest Classifier model.
-
-## Visualization
-
-- ![Bar graph between lda_coefficients and column_names](images/Bar graph between lda_coefficients and column_names.png): Visualization depicting the relationship between LDA coefficients and column names.
 
 ## Usage
 
