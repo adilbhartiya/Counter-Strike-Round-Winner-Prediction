@@ -38,10 +38,10 @@ The dataset consists of in-game attributes such as weapons, economy, maps, teamw
 
 1. Clone the repository: `git clone <https://github.com/adilbhartiya/Counter-Strike-Round-Winner-Prediction.git>`
 2. Navigate to the project directory: `cd Counter-Strike-Round-Winner-Prediction`
-3. Open and run `main.ipynb` in Jupyter Notebook or any compatible environment.
+3. Open and run `CS-GO Round Winner.ipynb` in Jupyter Notebook or any compatible environment.
 
 ## Conclusion
 
 The Random Forest Classifier emerged as the top-performing model with robust performance in predicting round winners in CS:GO. Further optimization and fine-tuning of the model could enhance its performance even more.
 
-For detailed implementation and analysis, refer to the Jupyter Notebook (`main.ipynb`) in this repository.
+For detailed implementation and analysis, refer to the Jupyter Notebook (`CS-GO Round Winner.ipynb`) in this repository.
