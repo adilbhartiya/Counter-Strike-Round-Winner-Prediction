@@ -1,30 +1,45 @@
-# COVID-19 Analysis Project
+# Counter-Strike Round Winner Prediction
 
-## Step 1: Dataset Description and Objective
+This project focuses on building and comparing multiple machine learning algorithms to predict the winners of rounds in Counter-Strike: Global Offensive (CS:GO). 
 
-### Dataset Description
-The dataset comprises COVID-19 data, including confirmed cases, recoveries, and deaths, from various global regions with a focus on India. It is available in CSV and Excel formats, regularly updated. Each record includes the date, country/region, confirmed cases, recoveries, and deaths.
+## Dataset Description and Objective
 
-### Objective
-This project aims to analyze COVID-19 trends using Python. Objectives include visualizing impacts, analyzing infection and recovery rates, predicting future cases using Facebook Prophet, and deriving actionable insights for informed decision-making.
+The dataset consists of in-game attributes such as weapons, economy, maps, teamwork, and competitive play. The objective is to classify the winners of each round based on these attributes.
 
-## Technologies Used
-- Python
-- Jupyter Notebook
-- Pandas
+## Steps Involved
+
+1. **Data Loading**: Load the dataset.
+2. **Exploratory Data Analysis (EDA)**: Analyze the dataset to understand its structure and characteristics.
+3. **Data Preprocessing**: Preprocess the data by handling missing values, duplicates, and encoding categorical variables.
+4. **Model Building**: Build machine learning models using various algorithms such as Logistic Regression, Decision Tree Classifier, and Random Forest Classifier.
+5. **Model Evaluation and Comparison**: Evaluate the models using metrics like Accuracy, Precision, Recall, F1-score, and ROC-AUC. Compare the performance of different models.
+6. **Model Saving and Loading**: Save the best performing model for future use.
+
+## Libraries Used
+
 - NumPy
+- Pandas
 - Matplotlib
 - Seaborn
-- Facebook Prophet
+- Scikit-learn
 
-## Project Structure
-- **code/**: Contains the Jupyter notebook with the analysis and prediction code.
-- **data/**: Includes the dataset files (CSV, Excel).
-- **docs/**: Additional documentation and reports.
-- **images/**: Visualizations and graphs generated during the analysis.
-- **models/**: Pre-trained models (if applicable).
+## Files Included
 
-## Setup Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/adilbhartiya/covid-19-analysis.git
+- [cs-go.csv](https://drive.google.com/file/d/1hv3ui6xtPM_hDyVwwm1OaOH-cq9bLyJ3/view?usp=drive_link): Dataset containing in-game attributes.
+- [random_forest_model.pkl](https://drive.google.com/file/d/1HEy7gEwStU3p1X3c1fIs78g-7jFNgMjD/view?usp=drive_link): Saved Random Forest Classifier model.
+
+## Visualization
+
+- ![Bar graph between lda_coefficients and column_names](images/Bar graph between lda_coefficients and column_names.png): Visualization depicting the relationship between LDA coefficients and column names.
+
+## Usage
+
+1. Clone the repository: `git clone <https://github.com/adilbhartiya/Counter-Strike-Round-Winner-Prediction.git>`
+2. Navigate to the project directory: `cd Counter-Strike-Round-Winner-Prediction`
+3. Open and run `main.ipynb` in Jupyter Notebook or any compatible environment.
+
+## Conclusion
+
+The Random Forest Classifier emerged as the top-performing model with robust performance in predicting round winners in CS:GO. Further optimization and fine-tuning of the model could enhance its performance even more.
+
+For detailed implementation and analysis, refer to the Jupyter Notebook (`main.ipynb`) in this repository.
