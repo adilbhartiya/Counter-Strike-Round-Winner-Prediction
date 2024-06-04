@@ -36,8 +36,8 @@ The dataset consists of in-game attributes such as weapons, economy, maps, teamw
 
 ## Usage
 
-1. Clone the repository: `git clone https://github.com/adilbhartiya/Counter-Strike-Round-Winner-Prediction.git`
-2. Navigate to the project directory: `cd Counter-Strike-Round-Winner-Prediction`
+1. Clone the repository: ```bash git clone https://github.com/adilbhartiya/Counter-Strike-Round-Winner-Prediction.git```
+2. Navigate to the project directory: ```bash cd Counter-Strike-Round-Winner-Prediction```
 3. Open and run `CS-GO Round Winner.ipynb` in Jupyter Notebook or any compatible environment.
 
 ## Conclusion
